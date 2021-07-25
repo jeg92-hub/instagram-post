@@ -1,0 +1,37 @@
+.item-icon{
+    padding:5px;
+}
+
+.item-icon:first-child{
+    padding-left:0px;
+}
+
+.item-icon:last-child{
+    padding-right:0px;
+}
+
+.item-icon-right{
+    position: absolute;
+    padding:5px;
+    right:10px;
+}
+
+.fa, .far,.fas{
+    font-size:24px;
+}
+
+.alias, .liked{
+    font-weight: bold;
+}
+
+.info > .alias, .info > .name{
+    margin:0;
+    font-size: 14px;
+}
+
+.cover > .avatar{
+    height:40px;
+    width:40px;
+    border:1px solid lightgray;
+    padding:1px;
+}
